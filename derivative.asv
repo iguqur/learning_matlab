@@ -1,9 +1,0 @@
-sysms x
-f=exp(-x)*sin(x^2)
-df=diff(f)
-d2f=diff(f, 2)
-fplot(f, [0,5])
-hold on
-fplot(df, [0, 5], 'k:')
-fplot(df, [0,5], '.')
-legend('fx
